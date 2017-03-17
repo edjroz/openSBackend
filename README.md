@@ -1,2 +1,2 @@
-# oepnSBackend
+# openSBackend
 Open Saturday API backend
