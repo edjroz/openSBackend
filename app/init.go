@@ -1,7 +1,9 @@
 package app
 
-import "github.com/revel/revel"
-import "openss/api/app/database"
+import (
+    "github.com/revel/revel"
+    "openss/api/app/models/mongodb"
+)
 
 func init() {
 	// Filters is the default set of global filters.
@@ -22,17 +24,19 @@ func init() {
 
 	// register startup functions with OnAppStart
 	// ( order dependent )
-	revel.OnAppStart(InitDB)
+	revel.OnAppStart(initApp)
 	// revel.OnAppStart(FillCache)
 }
 
-func InitDB() {
-	// The second argument are default values, for safety
-	uri := revel.Config.StringDefault("database.uri", "mongodb://db:27017")
-	name := revel.Config.StringDefault("database.name", "opensaturday")
-	if err := database.Init(uri, name); err != nil {
-		revel.INFO.Println("DB Error", err)
-	}
+func initApp() {
+   /* Config, err := revel.LoadConfig("app.conf")
+    if err != nil || Config == nil {
+        log.Fatalf("%+v",err)
+    }*/
+    mongodb.MaxPool = revel.Config.IntDefault("mongo.maxPool", 20)
+    mongodb.PATH,_ = revel.Config.String("mongo.path")
+    mongodb.DBNAME, _ = revel.Config.String("mongo.database")
+    mongodb.CheckAndInitServiceConnection()
 }
 
 // TODO turn this into revel.HeaderFilter

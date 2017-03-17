@@ -4,6 +4,50 @@ package routes
 import "github.com/revel/revel"
 
 
+type tPostController struct {}
+var PostController tPostController
+
+
+func (_ tPostController) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("PostController.Index", args).Url
+}
+
+func (_ tPostController) Show(
+		id string,
+		) string {
+	args := make(map[string]string)
+	
+	revel.Unbind(args, "id", id)
+	return revel.MainRouter.Reverse("PostController.Show", args).Url
+}
+
+func (_ tPostController) Create(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("PostController.Create", args).Url
+}
+
+func (_ tPostController) Update(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("PostController.Update", args).Url
+}
+
+func (_ tPostController) Delete(
+		id string,
+		) string {
+	args := make(map[string]string)
+	
+	revel.Unbind(args, "id", id)
+	return revel.MainRouter.Reverse("PostController.Delete", args).Url
+}
+
+
 type tApp struct {}
 var App tApp
 

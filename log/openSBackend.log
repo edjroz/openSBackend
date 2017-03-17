@@ -1,0 +1,454 @@
+ERROR 2017/03/17 19:28:37 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:37 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:28:41 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:41 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:28:45 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:45 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:28:49 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:49 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:28:53 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:53 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:28:57 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:28:57 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:29:04 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:29:04 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:29:13 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:29:13 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:29:29 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:29:29 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:29:58 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:29:58 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:30:52 app/controllers/post.go:8:2: cannot find package "openSBackend/app/models" in any of:
+	/usr/local/go/src/openSBackend/app/models (from $GOROOT)
+	/go/src/openSBackend/app/models (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:30:52 package openSBackend/app/models: unrecognized import path "openSBackend/app/models" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:18 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:18 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:23 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:23 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:26 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:26 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:30 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:30 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:34 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:34 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:38 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:39 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:45 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:45 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:39:55 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:39:55 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:40:10 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:40:10 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:40:39 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:40:39 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:41:33 app/models/post.go:5:2: cannot find package "openSBackend/app/models/mongodb" in any of:
+	/usr/local/go/src/openSBackend/app/models/mongodb (from $GOROOT)
+	/go/src/openSBackend/app/models/mongodb (from $GOPATH)
+app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:41:33 package openSBackend/app/models/mongodb: unrecognized import path "openSBackend/app/models/mongodb" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:27 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:27 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:31 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:31 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:35 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:35 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:39 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:39 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:43 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:43 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:48 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:48 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:48:54 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:48:54 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:49:04 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:49:04 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:49:20 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:49:20 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:49:49 app/init.go:4:8: cannot find package "openss/api/app/database" in any of:
+	/usr/local/go/src/openss/api/app/database (from $GOROOT)
+	/go/src/openss/api/app/database (from $GOPATH)
+
+ERROR 2017/03/17 19:49:49 package openss/api/app/database: unrecognized import path "openss/api/app/database" (import path does not begin with hostname)
+
+ERROR 2017/03/17 19:53:57 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:01 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:05 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:09 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:13 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:18 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:25 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:34 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:54:51 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:55:19 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 19:56:15 # openss/api/app
+app/init.go:30: undefined: revel.LoadConfig
+app/init.go:32: undefined: log in log.Fatalf
+app/init.go:34: undefined: mongodb in mongodb.MaxPool
+app/init.go:34: cannot assign to mongodb.MaxPool
+app/init.go:35: undefined: mongodb in mongodb.PATH
+app/init.go:35: cannot assign to mongodb.PATH
+app/init.go:36: undefined: mongodb in mongodb.DBNAME
+app/init.go:36: cannot assign to mongodb.DBNAME
+app/init.go:37: undefined: mongodb in mongodb.CheckAndInitServiceConnection
+
+ERROR 2017/03/17 20:07:25 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:07 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:11 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:16 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:20 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:24 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:30 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:36 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:11:46 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:12:03 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:12:32 # openss/api/app
+app/init.go:33: undefined: revel.LoadConfig
+
+ERROR 2017/03/17 20:13:30 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:13:35 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:13:39 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:13:43 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:13:48 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:13:53 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:14:00 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:17:58 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:02 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:07 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:11 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:15 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:21 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
+ERROR 2017/03/17 20:18:28 # openss/api/app
+app/init.go:4: imported and not used: "log"
+
