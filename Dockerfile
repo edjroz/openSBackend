@@ -22,4 +22,4 @@ RUN set -ex \
 EXPOSE 9000
 
 #CMD ["revel", "run openss/api"]
-ENTRYPOINT revel run openss/api prod 9000
+ENTRYPOINT revel run openss/api prod 9000 

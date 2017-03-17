@@ -19,7 +19,7 @@ services:
         window: 60s
 
   db:
-    image: mongo:3
+    image: mongo
     ports:
       -  '27017:27017'
 

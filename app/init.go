@@ -1,6 +1,7 @@
 package app
 
 import "github.com/revel/revel"
+import "openss/api/app/database"
 
 func init() {
 	// Filters is the default set of global filters.
@@ -21,8 +22,17 @@ func init() {
 
 	// register startup functions with OnAppStart
 	// ( order dependent )
-	// revel.OnAppStart(InitDB)
+	revel.OnAppStart(InitDB)
 	// revel.OnAppStart(FillCache)
+}
+
+func InitDB() {
+	// The second argument are default values, for safety
+	uri := revel.Config.StringDefault("database.uri", "mongodb://db:27017")
+	name := revel.Config.StringDefault("database.name", "opensaturday")
+	if err := database.Init(uri, name); err != nil {
+		revel.INFO.Println("DB Error", err)
+	}
 }
 
 // TODO turn this into revel.HeaderFilter
