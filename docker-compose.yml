@@ -1,0 +1,25 @@
+# Docker-compose file
+
+version: '3'
+services:
+  web:
+    build: .
+    restart: always
+    volumes:
+      -  .:/go/src/openss/api
+    ports: 
+      -  '9000:9000'
+    depends_on:
+      - db
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 60s
+
+  db:
+    image: mongo:3
+    ports:
+      -  '27017:27017'
+
