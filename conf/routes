@@ -15,3 +15,8 @@ GET     /public/*filepath                       Static.Serve("public")
 # Catch all
 *       /:controller/:action                    :controller.:action
 
+GET    /speeches                               SpeechController.Index
+POST   /speeches                               SpeechController.Create
+PUT    /speeches                               SpeechController.Update
+GET    /speeches/:id                           SpeechController.Show
+DELETE /speeches/:id                           SpeechController.Delete
