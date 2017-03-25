@@ -22,10 +22,10 @@ func (c SpeechController) Index() revel.Result {
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 	c.Response.Status = 200
-	return c.RenderJson(speechs)
+	return c.RenderJSON(speechs)
 }
 
 func (c SpeechController) Show(id string) revel.Result {
@@ -38,25 +38,25 @@ func (c SpeechController) Show(id string) revel.Result {
 	if id == "" {
 		errResp := buildErrResponse(errors.New("Invalid speech id format"), "400")
 		c.Response.Status = 400
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	speechID, err = convertToObjectIdHex(id)
 	if err != nil {
 		errResp := buildErrResponse(errors.New("Invalid speech id format"), "400")
 		c.Response.Status = 400
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	speech, err = models.GetSpeech(speechID)
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	c.Response.Status = 200
-	return c.RenderJson(speech)
+	return c.RenderJSON(speech)
 }
 
 func (c SpeechController) Create() revel.Result {
@@ -69,17 +69,17 @@ func (c SpeechController) Create() revel.Result {
 	if err != nil {
 		errResp := buildErrResponse(err, "403")
 		c.Response.Status = 403
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	speech, err = models.AddSpeech(speech)
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 	c.Response.Status = 201
-	return c.RenderJson(speech)
+	return c.RenderJSON(speech)
 }
 
 func (c SpeechController) Update() revel.Result {
@@ -91,16 +91,16 @@ func (c SpeechController) Update() revel.Result {
 	if err != nil {
 		errResp := buildErrResponse(err, "400")
 		c.Response.Status = 400
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	err = speech.UpdateSpeech()
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
-	return c.RenderJson(speech)
+	return c.RenderJSON(speech)
 }
 
 func (c SpeechController) Delete(id string) revel.Result {
@@ -112,28 +112,28 @@ func (c SpeechController) Delete(id string) revel.Result {
 	if id == "" {
 		errResp := buildErrResponse(errors.New("Invalid speech id format"), "400")
 		c.Response.Status = 400
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	speechID, err = convertToObjectIdHex(id)
 	if err != nil {
 		errResp := buildErrResponse(errors.New("Invalid speech id format"), "400")
 		c.Response.Status = 400
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 
 	speech, err = models.GetSpeech(speechID)
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 	err = speech.DeleteSpeech()
 	if err != nil {
 		errResp := buildErrResponse(err, "500")
 		c.Response.Status = 500
-		return c.RenderJson(errResp)
+		return c.RenderJSON(errResp)
 	}
 	c.Response.Status = 204
-	return c.RenderJson(nil)
+	return c.RenderJSON(nil)
 }

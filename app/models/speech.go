@@ -21,7 +21,7 @@ type Speech struct {
 }
 
 func newSpeechCollection() *mongodb.Collection {
-	return mongodb.NewCollectionSession("speechs")
+	return mongodb.NewCollectionSession("speeches")
 }
 
 // AddSpeech insert a new Speech into database and returns
@@ -63,15 +63,15 @@ func (m Speech) DeleteSpeech() error {
 // list of Speech on success
 func GetSpeeches() ([]Speech, error) {
 	var (
-		speechs []Speech
-		err     error
+		speeches []Speech
+		err      error
 	)
 
 	c := newSpeechCollection()
 	defer c.Close()
 
-	err = c.Session.Find(nil).Sort("-createdAt").All(&speechs)
-	return speechs, err
+	err = c.Session.Find(nil).Sort("-createdAt").All(&speeches)
+	return speeches, err
 }
 
 // GetSpeech Get a Speech from database and returns
